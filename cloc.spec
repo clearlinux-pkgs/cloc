@@ -4,7 +4,7 @@
 #
 Name     : cloc
 Version  : 1.80
-Release  : 1
+Release  : 2
 URL      : https://github.com/AlDanial/cloc/releases/download/1.80/cloc-1.80.tar.gz
 Source0  : https://github.com/AlDanial/cloc/releases/download/1.80/cloc-1.80.tar.gz
 Summary  : No detailed summary available
