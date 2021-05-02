@@ -1,5 +1,5 @@
 PKG_NAME := cloc
-URL = https://github.com/AlDanial/cloc/archive/1.88/cloc-1.88.tar.gz
+URL = https://github.com/AlDanial/cloc/archive/v1.90/cloc-1.90.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
