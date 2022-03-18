@@ -4,7 +4,7 @@
 #
 Name     : cloc
 Version  : 1.92
-Release  : 8
+Release  : 9
 URL      : https://github.com/AlDanial/cloc/archive/v1.92/cloc-1.92.tar.gz
 Source0  : https://github.com/AlDanial/cloc/archive/v1.92/cloc-1.92.tar.gz
 Summary  : No detailed summary available
@@ -12,7 +12,6 @@ Group    : Development/Tools
 License  : GPL-2.0
 Requires: cloc-bin = %{version}-%{release}
 Requires: cloc-license = %{version}-%{release}
-BuildRequires : buildreq-golang
 BuildRequires : buildreq-meson
 BuildRequires : buildreq-qmake
 Patch1: 0001-Add-Makefile.patch
@@ -52,7 +51,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1638821243
+export SOURCE_DATE_EPOCH=1647630216
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -65,7 +64,7 @@ make  %{?_smp_mflags}
 
 
 %install
-export SOURCE_DATE_EPOCH=1638821243
+export SOURCE_DATE_EPOCH=1647630216
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/cloc
 cp %{_builddir}/cloc-1.92/LICENSE %{buildroot}/usr/share/package-licenses/cloc/30a6e0a424471d8ac874b5616dd5a18c45fd6046
